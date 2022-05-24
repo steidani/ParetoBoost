@@ -1,0 +1,12 @@
+datadir: /home/steidani/windows/data/ParetoBoost
+name: geopotential
+era_var_name: geopotential
+level_type: pressure
+pressure_level:
+  - 500
+res:
+  - 1.875
+  - 3.75
+area:
+  - 90, -60, 30, 60 # NA/Europe
+

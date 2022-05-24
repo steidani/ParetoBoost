@@ -1,0 +1,9 @@
+datadir: /home/steidani/windows/data/ParetoBoost
+name: 2m_temperature
+era_var_name: 2m_temperature
+level_type: single
+res:
+  - 1.875
+  - 3.75
+area:
+  - 90, -60, 30, 60 # NA/Europe
