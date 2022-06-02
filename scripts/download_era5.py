@@ -41,3 +41,17 @@ download.main(
     resolution=download.resolution,
     custom_fn='constants_1.875.nc'
 )
+
+# download temperature at 850 hPa
+download.main(
+    mode='separate',
+    variable=['temperature'],
+    level_type='pressure',
+    pressure_level=['850'],   
+    output_dir='/home/steidani/windows/data/ParetoBoost/temperature/',
+    years=download.all_years,
+    month=download.all_months,
+    day=download.all_days,
+    time=download.all_times,
+    resolution=download.resolution
+)
